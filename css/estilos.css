@@ -1,0 +1,101 @@
+#contenedor{
+	width: 860px;
+	height: 400px;
+	border: 2px solid #000;
+	margin: auto;
+
+}
+
+header
+{
+	width: 1100px;
+	height: 210px;
+	border: 1px solid #000;
+	background: #FFFFFF;
+	color: #FCA205;
+	margin: auto;
+}
+
+.logo
+{
+	width: 25%;
+	height: 100px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+figure
+{
+	margin: 0px;
+	padding: 0px;
+	float: none;
+}
+
+}
+.Menu
+{
+width: 800px;
+height: 200px;
+border: 0px solid #000;
+float: right;
+margin-top: 0px;
+}
+
+.Menu ul{}
+
+.Menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.Menu ul li a{
+	text-decoration: none;
+	padding: 10px 25px;
+	border: 1px solid #000;
+	background: #000080;
+	color: #FFFFFF;
+}
+aside
+{
+	width: 1100px;
+	height: 400px;
+	border: 1px solid #000;
+	background: #e8f6f3;
+	color: #FCA205;
+	margin: auto;
+}
+.img1
+{
+	width: 50px 0;
+	margin: 50px 0;
+}
+footer
+{
+	width: 1100px;
+	height: 120px;
+	border: 1px solid #000;
+	background: #000;
+	color: #FCA205;
+	margin: auto;
+}
+.img2
+{
+float: right;
+padding: 0px;
+width: 550px;
+margin: 0;
+}
+.img3
+{
+float: left;
+padding: 0px;
+width: 400px;
+margin: 0;
+}
+h5
+{
+float: left;
+padding: 30px;
+width: 400px;
+margin: auto;
+}
