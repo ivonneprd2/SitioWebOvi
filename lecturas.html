@@ -4,38 +4,51 @@
 	<title>ACTIVIDAD WEB EN EQUIPO</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css" >
-
+<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all" rel="stylesheet" type="text/css">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 	<div id="Contenedor" style="widt:100%">
-	   <div class="left">
-	    <nav class="Menu" style="width:100%">
-			<ul class="nav flex-column" style="width:100%">
-				<li class="nav-item" style="width:100%; height: 38px;"><a class="nav-link active" href="">Conceptos</a></li>				
-				<li class="nav-item" style="width:100%; height: 38px;"><a class="nav-link" href="">Lecturas</a></li>
-				<li class="nav-item" style="width:100%; height: 38px;"><a class="nav-link" href="">Multimedia</a></li>
-				<li class="nav-item" style="width:100%; height: 38px;"><a class="nav-link" href="">Actividades</a></li>
-				<li class="nav-item" style="width:100%; height: 38px;"><a class="nav-link"href="">Autores</a></li>
-			</ul>
-		 </nav>
-		</div>
-	   <div class="center">
-	     <ul class="nav flex-column">
-		  <li class="nav-item">
-			<a class="nav-link active" href="#">Item 1</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="#">Item 2</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="#">Item 3</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link disabled" href="#">Item 4</a>
-		  </li>
-		 </ul>  
-	   </div>
+	   	   
+			<div class="row">
+			  <div class="col-4">
+				<div class="list-group" id="list-tab" role="tablist">
+				  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+				  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+				  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+				  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+				</div>
+			  </div>
+			  <div class="col-8">
+				<div class="tab-content" id="nav-tabContent">
+				  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">a</div>
+				  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">b</div>
+				  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+				  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+				</div>
+			  </div>
+			</div>
+			
 	   
+	   <div class="center" style="widt:70%">
+	   
+	   </div>	
+
+        	   
 	</div>
 </body>
+<footer>
+     	<div class="img2">
+			<img src="/C:\Users\DNOVA\Desktop\SITE\img\calidad_unad.png" src="/C:\Users\DNOVA\Desktop\SITE\img\calidad_unad.png" alt="">
+		</div>
+		<div class="img3">
+			<img src="/C:\Users\DNOVA\Desktop\SITE\img\direccion_unad.png" src="/C:\Users\DNOVA\Desktop\SITE\img\direccion_unad.png" alt="">
+		</div>
+		<h5>Derechos Reservados</h5>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>   
+		<script src="js/SitioWebOvi.js"></script> 
+               
+</footer>
 </html>

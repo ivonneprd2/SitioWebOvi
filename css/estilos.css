@@ -99,3 +99,14 @@ padding: 30px;
 width: 400px;
 margin: auto;
 }
+
+.left{
+    float: left;
+    background:blue;
+	width:30%;
+}
+.center{
+    float: center;
+    background:red;
+	width:70%;
+}
