@@ -110,3 +110,13 @@ margin: auto;
     background:red;
 	width:70%;
 }
+
+Article
+{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #beb3fe;
+	background: #beb3fe;
+	color: #2705fc;
+	margin: auto;
+}
