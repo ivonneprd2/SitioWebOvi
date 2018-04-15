@@ -120,3 +120,17 @@ Article
 	color: #2705fc;
 	margin: auto;
 }
+
+element.style {
+    text-align: center;
+    background: #fff;
+}
+
+
+.list-group-item.active {
+    z-index: 2;
+    color: #f8f9fa;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
